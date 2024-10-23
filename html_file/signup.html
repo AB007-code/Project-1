@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="../css_file/signup.css" rel="stylesheet"/>
 </head>
 <body>
-    <form>
+    <div class="c1"><h1>Tech-Shop</h1></div>
+    <form method="post">
         <h2>Signup</h2>
-        <h6>Already have an account ? Login</h6>
-        <input type="text" name="username" placeholder="Username"/>
-        <input type="email" name="email" placeholder="Email"/>
-        <input type="password" name="password" placeholder="Password"/>
-        <input type="text" name="password" placeholder="Confirm Password"/>
-        <button>Signup</button>
-        <div>
-            <p>or login with</p>
-        </div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <p class="loginP">Already have an account ? <strong>Login</strong></p>
+    <div class="input_div">
+        <input type="text" name="username" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Username"/>
+        <input type="email" name="email" placeholder="&nbsp;&nbsp;&nbsp;Email"/>
+        <input type="password" name="password" placeholder="&nbsp;&nbsp;&nbsp;Password"/>
+        <input type="text" name="password" placeholder="&nbsp;&nbsp;&nbsp;Confirm Password"/>
+    </div>
+        <button class="signup_button">Signup</button>
+    <div>
+            <hr class="hr1">
+            <p class="p">or login with</p>
+            <hr class="hr2">
+    </div>
+        <div class="social"> 
+            <button class="fb">Facebook</button>
+            <button class="gg">Google</button>
+            <button class="tw">Twitter</button>
         </div>
     </form>
 </body>

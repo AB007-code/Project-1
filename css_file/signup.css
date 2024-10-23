@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(20, 20, 20, 0.993);
+}
+.c1{
+    grid-area: 1/1/1/2;
+    font-size:0.8em; 
+    color:rgb(177, 169, 169); 
+    margin-top:-20px;
+    
+}
+form{
+    color:aliceblue;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    left:40%;
+    top:20%;
+    padding:20px;
+    background-color: rgba(27, 26, 26, 0.884);
+
+}
+h2{
+    font-size:1.2em;
+    margin-bottom:-18px;
+}
+.loginP{
+    font-size:0.7em;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.input_div{
+    display:grid;
+    grid-template-rows: repeat(4,1fr);
+    gap:15px;
+}
+input{
+    height:30px;
+    width:258px;
+    background-color:rgba(27, 26, 26, 0.884);
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    border-radius:3px;
+}
+.signup_button{
+    height:28px;
+    width:258px;
+    background-color: red;
+    border:0px;
+    text-align: center;
+    margin-top:20px;
+    align-items: center;
+    z-index:1;
+    color:aliceblue;
+}
+.hr1{
+    width:70px;
+    position:relative;
+    right:92px;
+    top:25.5px;
+}
+.hr2{
+    width:70px;
+    position:relative;
+    left:92px;
+    bottom:24px;
+}
+.p{
+    position:relative;
+    left:88px;
+    font-size: 0.95em;
+}
+.social{
+    display:flex;
+    height:30px;
+    width:258px;
+    justify-content: space-between;
+    
+}
+.social button{
+    width:80px;
+    color:white;
+    border:0px;
+}
+.fb{
+    background-color: #4267B2;
+}
+.gg{
+    background-color: #dd3333;
+}
+.tw{
+    background-color: #1DA1F2;
+}
