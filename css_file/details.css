@@ -246,6 +246,13 @@ hr{
     border:0px;
     border-radius:5px;
 }
+.button_div a{
+    text-decoration: none;
+}
+.button_div button:hover{
+    transform:scale(1.01);
+    cursor: pointer;
+}
 .brand_details{
     display:flex;
     justify-content: center;
@@ -372,6 +379,14 @@ hr{
     color: rgb(177, 169, 169);
     background-color: red;
 }
+.addtocart a{
+    text-decoration: none;
+}
+.addtocart:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color:aliceblue;
+}
 .browse h2{
     text-align:center;
     margin-top:0px;
@@ -489,6 +504,13 @@ a:hover h2{
     justify-content: center;
     color:rgb(177, 169, 169);
 
+}
+.f-c-1-2-1-p a , .social-media a{
+    text-decoration: none;
+    color: rgba(177, 169, 169, 0.726);
+}
+.f-c-1-2-1-p a:hover,.social-media a:hover{
+    color:aliceblue;
 }
 .f-c-1-2-1-h2 h2{
     font-size:1.3em;
