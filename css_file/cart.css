@@ -143,6 +143,12 @@ body{
     /* border:1px solid blue; */
     height:400px;
     flex:4;
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+
 }
 .add_items1-child-1{
     /* border:1px solid red; */
@@ -236,4 +242,204 @@ body{
     border:0.1px solid;
     color:rgba(253, 255, 255, 0.13);
 }
+.item-2-child-1{
+    /* border:1px solid red; */
+    color:rgba(240, 248, 255, 0.63);
+    width:80%;
+}
+.item-2-child-1 h2{
+    /* width:80%; */
+    /* border:1px solid red; */
+    margin-top:0px;
+}
+.item-2-child-2{
+   /* border:1px solid #008000; */
+   height:150px;
+   width:80%;
+   display:flex;
+   flex-direction:column;
+   justify-content: space-around;
+}
+.item-2-child-2 div{
+    /* border:1px solid red; */
+    color:rgba(240, 248, 255, 0.63);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.status1{
+    font-size:1.5em;
+}
+.status2{
+    font-size:1.6em;
+}
+.status3{
+    font-size:1.4em;
+}
+.hr-item2{
+    border:1px solid rgba(255, 255, 255, 0.279);
+    width:80%;
+}
+.item-2-child-3{
+    /* border:1px solid orangered; */
+    color:rgba(240, 248, 255, 0.63);
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status4{
+    font-size:1.8em;
+    font-weight: bolder;
+}
+.status5{
+    font-size:2.3em;
+    font-weight: bolder;
+}
+.item-2-child-4{
+    /* border:1px solid green; */
+    width:80%;
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+}
+.item-2-child-4 button{
+    padding:10px 20px;
+    font-size:1.4em;
+    border:0px;
+    color: white;
+    background-color: red;
+}
+.footer{
+    /* border:1px solid red; */
+    background-color: black;
+    height:370px;
+    width:100%;
+    margin-top:20px;
+}
+.footer-child-1{
+    height:300px;
+    width:100%;
+    color:aliceblue;
+    display:flex;
+    justify-content: space-around;
+}
+.footer-child-2{
+    height:70px;
+    width:100%;
+    border-top: 1px solid rgba(109, 107, 107, 0.363);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.f-c-1-1{
+    width:22%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.f-c-1-2{
+    width:70%;
+    display:flex;
+    justify-content: space-around;
+}
+.f-c-1-2-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.f-c-1-2-1-h2{
+    height:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(177, 169, 169);
 
+}
+.f-c-1-2-1-p a , .social-media a{
+    text-decoration: none;
+    color: rgba(177, 169, 169, 0.726);
+}
+.f-c-1-2-1-p a:hover,.social-media a:hover{
+    color:aliceblue;
+}
+.f-c-1-2-1-h2 h2{
+    font-size:1.3em;
+}
+.f-c-1-2-1-p{
+    height:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:rgba(177, 169, 169, 0.726);
+}
+.f-c-1-2-1-p p{
+    margin:0px;
+}
+.h1-1{
+    height:20%; 
+    color:rgb(177, 169, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1-1 h1{
+    font-size:1.6em;
+}
+.label_section{
+    height:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.label-1{
+    color:rgba(255, 255, 255, 0.555);
+    font-size:0.94em;
+}
+.input-1{
+    background-color:black;
+}
+.input-1 input{
+    font-size: 1em;
+    color:aliceblue;
+    background-color:black;
+    border: 0.5px solid rgba(255, 255, 255, 0.438);
+    padding:12px 2.5%;
+    width:90%;
+    border-radius: 4px;
+}
+.button-1 button{
+    font-size: 1em;
+    padding:10px 20px;
+    background-color: red;
+    color:rgba(240, 248, 255, 0.863);
+    border:0px;
+    border-radius:4px;
+}
+.footer-child-2-1{
+    color:rgba(240, 248, 255, 0.856);
+}
+.footer-child-2-1 p{
+    margin:0px;
+    color:rgba(240, 248, 255, 0.575);
+}
+.name-1{
+    color:rgba(240, 248, 255, 0.856);
+}
+.invention_detail{
+    /* border:1px solid red; */
+    width:60%;
+}
+.social-media{
+    /* border:1px solid red; */
+    display:flex;
+    gap:30px;
+    width:30%;
+    justify-content: center;
+    
+}
+.social-media i{
+    font-size:1.25em;
+}
